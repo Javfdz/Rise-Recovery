@@ -1,0 +1,26 @@
+
+#pandi {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#calender {
+    flex-direction: row;
+}
+
+#partners {
+    padding-left: 10%;
+}
+
+.calenderItems {
+    background-color: #F7F5FB;
+    padding-left: 3.5%;
+    padding-bottom: 3.5%;
+}
+
+.investors {
+    padding-left: 3.5%;
+    padding-bottom: 3%;
+}
