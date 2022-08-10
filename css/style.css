@@ -1,0 +1,17 @@
+.backGround{
+    background-color: #909CC2;
+    padding: 30px;
+}
+
+footer{
+    font-family: 'Jost', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+}
+.row{
+    column-gap: 40px;
+}
+.col{
+    padding-top: 20px;
+
+}
