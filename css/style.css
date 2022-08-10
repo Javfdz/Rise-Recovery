@@ -1,3 +1,47 @@
+
+.backGround{
+    background-color: #909CC2;
+    padding: 30px;
+}
+
+footer{
+    font-family: 'Jost', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+}
+footer .row{
+    column-gap: 40px;
+}
+.col{
+    padding-top: 20px;
+}
+
+#pandi {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#calender {
+    flex-direction: row;
+}
+
+#partners {
+    padding-left: 10%;
+}
+
+.calenderItems {
+    background-color: #F7F5FB;
+    padding-left: 3.5%;
+    padding-bottom: 3.5%;
+}
+
+.investors {
+    padding-left: 3.5%;
+    padding-bottom: 3%;
+}
+    
 section h2 {
     font-family: 'Jost', sans-serif;
 }
