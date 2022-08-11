@@ -1,21 +1,81 @@
-<<<<<<< Updated upstream
+.jumbotron {
+    background-image: url("Hero Image");
+}
+body{
+    background-color: url(.);
+    font-size: 20px;
+  }
 
-.backGround{
-    background-color: #909CC2;
-    padding: 30px;
-}
+  #moreEvents{
+    color: #00ACD7;
+    text-align: right;
+    font-size: 26px;
+    cursor: pointer;
+  }
 
-footer{
-    font-family: 'Jost', sans-serif;
-    color: #FFF;
-    font-size: 16px;
-}
-footer .row{
-    column-gap: 40px;
-}
-.col{
-    padding-top: 20px;
-}
+  .active.carousel-item-right {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  .active.carousel-item-left {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .carousel-item-next:not(.carousel-item-left), .carousel-item-prev:not(.carousel-item-right){
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .carousel-button{
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    left: calc(60% - 100px);
+    color: #E37D00;
+  }
+
+  .dropdown-menu {
+      background-color: #909CC2;
+
+  }
+  .carousel {
+      position: relative;
+      font-family: 'Jost', sans-serif;
+      text-align: center;
+  }
+  .carousel__item {
+      height: 300px;
+      background: black;
+      padding: 1em;
+      font-family: "Jost" , sans-serif;
+      font-weight: bold;
+      font-size: 2em;
+      color: antiquewhite;
+  }
+
+  .carousel__nav {
+      width: 100%;
+      padding: 20px 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+  #carouselExampleCaptions{
+      background-image: url(../images/Hero/Image.jpg);
+      position: absolute;
+      font-family: 'Jost', sans-serif;
+  }
+  .jumbotronjumbotron-fluid {
+      position:absolute;
+  }
+  .navbar-brand {
+      width: 50px;
+      height: 50px;
+  }
+  #navbarSupportedContent {
+      list-style: none;
+  }
 
 #pandi {
     padding-top: 3%;
@@ -56,8 +116,15 @@ section h2 {
     padding: 25px;
 }
 .videoMission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #00ACD7;
     height: 600px;
+}
+
+,.videoMission .container{
+    column-gap: 50px;
 }
 h2 {
     font-family: 'Jost', sans-serif;
@@ -68,13 +135,11 @@ h3 {
 p {
     font-family: 'Jost', sans-serif;
 }
-=======
 .jumbotron {
     background-image: url("Hero Image");
 }
 body{
-    background-color: url(.);
-    
+    background-color: url(.); 
   }
   
   
@@ -97,7 +162,15 @@ body{
     margin: 0 auto;
     display: block;
     left: calc(60% - 100px);
-    color: blue;
+    color: #E37D00
+  }
+  .btn-primary{
+    background-color: #E37D00;
+    border-color: #E37D00;
+  }
+  .btn-secondary{
+    background-color: #00ACD7;
+    border-color: #00ACD7;
   }
   .dropdown-menu {
       background-color: #909CC2;
@@ -130,9 +203,6 @@ body{
   .jumbotronjumbotron-fluid {
       position:absolute;
   }
-  .navbar-nav mr-auto{
-
-  }
   .navbar-brand {
       width: 50px;
       height: 50px;
@@ -140,4 +210,22 @@ body{
   #navbarSupportedContent {
       list-style: none;
   }
->>>>>>> Stashed changes
+.backGround{
+    background-color: #909CC2;
+    padding: 30px;
+}
+
+footer{
+    font-family: 'Jost', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+}
+footer .row{
+    column-gap: 40px;
+}
+footer p{
+    cursor: pointer;
+}
+.col{
+    padding-top: 20px;
+}
