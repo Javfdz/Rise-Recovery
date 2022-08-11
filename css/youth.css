@@ -1,0 +1,14 @@
+
+
+.heroSection {
+    text-align: center;
+    font-size: 24px;
+}
+
+#recoveryImages {
+    display: flex;
+}
+
+#recoveryImages2 {
+    align-content: center;
+}
