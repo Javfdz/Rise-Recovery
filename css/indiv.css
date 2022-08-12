@@ -87,7 +87,7 @@ footer p{
 .contentLayout {
   padding: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   column-gap: 250px;
   
 }
