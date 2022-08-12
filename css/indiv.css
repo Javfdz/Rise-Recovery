@@ -28,3 +28,41 @@ footer p{
 .col{
   padding-top: 20px;
 }
+.heading {
+  position: center;
+}
+.paragraph1 {
+  width: 592px;
+  height: 850px;
+  left: 118px;
+  top: 1469;
+  float: left;
+  margin-right: 2.5em;
+}
+.paragraph2{
+  position:inherit;
+
+}
+.groupsession {
+  float: left;
+  width: 522px;
+  height: 537px;
+  left: 138px;
+  top: 2395px;
+}
+.palmerlogo {
+  position: ;
+  float: right;
+  width: 506px;
+  height: 210px;
+  left: 791px;
+  top: 1655px;
+}
+.knot {
+  float: right;
+  width: 522px;
+  height: 537px;
+}
+.paragraph3 {
+
+}
