@@ -45,6 +45,7 @@ body{
   .programContainer{
     text-align: center;
     font-family: 'Jost', sans-serif;
+    padding: 50px;
   }
   .programContainer .col{
     padding: 50px;
