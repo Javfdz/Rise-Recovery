@@ -65,36 +65,30 @@ footer p{
 }
 
 .paragraph1 {
-  width: 592px;
-  height: 850px;
-  left: 118px;
-  top: 1469;
-  margin-right: 2.5em;
   font-size: 25px;
+
 }
 .paragraph2{
   font-size: 25px;
 
 }
-.groupsession {
-  
 
-}
 .palmerlogo {
   width: 100%;
   
 }
-.knot {
- 
-}
+
 .paragraph3 {
   font-size: 25px;
 
 }
 
 
-.contentLayout .row{
-  position: relative;
+.contentLayout {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 250px;
   
 }
 
