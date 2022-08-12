@@ -7,8 +7,7 @@
   padding-left: 20px;
 }
 body{
-    background-color: url(.);
-    font-size: 20px;
+    font-size: 25px;
   }
   .navbar-brand {
     width: 50px;
@@ -16,6 +15,10 @@ body{
 }
 #navbarSupportedContent {
     list-style: none;
+}
+.dropdown-menu {
+  background-color: #909CC2;
+
 }
 .backGround{
   background-color: #909CC2;
@@ -36,41 +39,62 @@ footer p{
 .col{
   padding-top: 20px;
 }
-.heading {
-  position: center;
+
+.indivFam h1{
+  padding: 20px;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  font-weight: 600;
 }
+
+.indivFam p{
+  font-family: 'Jost', sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 25px;
+
+}
+
+.contentList ol{
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  padding: 50px;
+  margin-left: 150px;
+  margin-right: 0 auto;
+  font-weight: 600;
+}
+
 .paragraph1 {
   width: 592px;
   height: 850px;
   left: 118px;
   top: 1469;
-  float: left;
   margin-right: 2.5em;
+  font-size: 25px;
 }
 .paragraph2{
-  position:inherit;
+  font-size: 25px;
 
 }
 .groupsession {
-  float: left;
-  width: 522px;
-  height: 537px;
-  left: 138px;
-  top: 2395px;
-}
-.palmerlogo {
-  position: ;
-  float: right;
-  width: 506px;
-  height: 210px;
-  left: 791px;
-  top: 1655px;
-}
-.knot {
-  float: right;
-  width: 522px;
-  height: 537px;
-}
-.paragraph3 {
+  
 
 }
+.palmerlogo {
+  width: 100%;
+  
+}
+.knot {
+ 
+}
+.paragraph3 {
+  font-size: 25px;
+
+}
+
+
+.contentLayout .row{
+  position: relative;
+  
+}
+

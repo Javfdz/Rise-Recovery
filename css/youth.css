@@ -1,3 +1,12 @@
+.utility{
+    font-family: 'Jost', sans-serif;
+    justify-content:flex-end;
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    padding-right: 20px;
+}
+
 
 
 .heroSection {
@@ -5,23 +14,41 @@
     font-size: 24px;
 }
 
-#recoveryImages {
-    display: flex;
+.recoveryImages1{
+    text-align: center;
+    padding-bottom:20px ;
 }
 
-#recoveryImages2 {
+.container-fluid .recoveryImages2 .row{
+    display: flex;
+    justify-content: center;
     align-content: center;
+    text-align: center;
+    column-gap: 50px;
 }
+
 
 #pandi {
+    padding-top: 3%;
     padding-left: 3%;
+    padding-bottom: 3%;
+    text-align: center;
 }
 
-#description {
-    padding-left: 12%;
+#descript1 {
+    padding-left: 5%;
     padding-right: 12%;
     padding-top: 5%;
     padding-bottom: 5%;
+    text-align: left;
+}
+
+#descript2 {
+    padding-left: 5%;
+    padding-right: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
 }
 
 #title {
@@ -33,4 +60,43 @@
 #investors {
     width: 50%;
     margin-bottom: 5%;
+}
+
+body{
+    background-color: url(.);
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  .navbar-brand {
+    width: 50px;
+    height: 50px;
+}
+#navbarSupportedContent {
+    list-style: none;
+}
+.backGround{
+  background-color: #909CC2;
+  padding: 30px;
+}
+
+.dropdown-menu {
+    background-color: #909CC2;
+
+}
+
+footer{
+  font-family: 'Jost', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+}
+footer .row{
+  column-gap: 40px;
+}
+footer p{
+  cursor: pointer;
+}
+.col{
+  padding-top: 20px;
 }
