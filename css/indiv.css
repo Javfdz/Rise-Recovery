@@ -1,3 +1,11 @@
+.utility{
+  font-family: 'Jost', sans-serif;
+  justify-content:flex-end;
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  padding-left: 20px;
+}
 body{
     background-color: url(.);
     font-size: 20px;
