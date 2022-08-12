@@ -161,12 +161,6 @@ body{
     column-gap: 50px;
 }
 
-.jumbotron {
-    background-image: url("Hero Image");
-}
-body{
-    background-color: url(.); 
-}
   .carousel-button{
     position: absolute;
     bottom: 10px;
@@ -238,17 +232,23 @@ footer{
     font-size: 16px;
 }
 .backGround{
-    background-color: #909CC2;
-    padding: 30px;
+  background-color: #909CC2;
+  padding: 30px;
+}
+
+footer{
+  font-family: 'Jost', sans-serif;
+  color: #FFF;
+  font-size: 16px;
 }
 footer .row{
-    column-gap: 40px;
+  column-gap: 40px;
 }
 footer p{
-    cursor: pointer;
+  cursor: pointer;
 }
 .col{
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .programContainer h2{
